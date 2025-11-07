@@ -1,8 +1,0 @@
-.profile-pic {
-  width: 13px;           /* ปรับขนาดรูปให้เล็กพอดี */
-  height: 13px;
-  object-fit: cover;      /* ทำให้รูปไม่ยืด */
-  border-radius: 50%;     /* ทำให้เป็นวงกลม */
-  margin-right: 20px;     /* เว้นช่องว่างระหว่างรูปกับข้อความ */
-  box-shadow: 0 0 8px rgba(0,0,0,0.15);
-}
