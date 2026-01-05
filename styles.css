@@ -1,0 +1,54 @@
+/* ตกแต่งส่วนหัว */
+.name-banner {
+    background-color: #a5403a; /* สีแดงเข้มตามรูป */
+    border-radius: 4px;
+}
+
+/* จัดการรูปวงกลม */
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%; /* วงกลม */
+    object-fit: cover;
+    border: 3px solid #000;
+}
+
+/* หัวข้อ Section */
+.section-title {
+    font-weight: 800;
+    color: #000;
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+}
+
+/* แก้ไขปัญหาหน้าเว็บเลื่อนเกิน */
+body {
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+
+hr {
+    margin-top: 0;
+    margin-bottom: 15px;
+    opacity: 0.15;
+}
+
+/*  สีพื้นหลัง Navbar */
+.navbar {
+  background-color: #a5403a !important;
+}   
+
+#navbarNav .nav-link {
+  color: #f2f2f2;
+}
+
+/* ปุ่ม Back to Home */
+.btn-secondary {
+  background-color: #e74c3c !important;
+  border-color: #e74c3c !important;
+}
+
+.btn-secondary:hover {
+  background-color: #c0392b !important;
+  border-color: #c0392b !important;
+}
